@@ -1,0 +1,851 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CCTV Installation & Security Camera Solutions | Home</title>
+  <meta name="description" content="Explore modern CCTV installation, IP cameras, security surveillance systems, and professional planning for residential and commercial properties. Demonstration portfolio.">
+  <meta name="keywords" content="CCTV installation, security cameras, surveillance systems, IP cameras, DVR, NVR, site survey">
+  
+  <!-- Open Graph Metadata -->
+  <meta property="og:title" content="CCTV Installation & Security Camera Solutions">
+  <meta property="og:description" content="Explore modern CCTV surveillance systems, camera selection, and professional installation planning for homes and businesses.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="images/cctv-hero-security-camera.jpg">
+
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+  <!-- Sticky Header Navigation -->
+  <header class="header" role="banner">
+    <div class="container header__container">
+      <a href="index.html" class="logo" aria-label="CCTV Security Solutions Home">
+        <div class="logo__symbol" aria-hidden="true">
+          <!-- Abstract camera lens / shield vector symbol -->
+          <svg viewBox="0 0 44 44" width="40" height="40" fill="none">
+            <path d="M22 3L6 10V22C6 32 13 40 22 43C31 40 38 32 38 22V10L22 3Z" stroke="#3478F6" stroke-width="2.5" fill="#111B2A"/>
+            <circle cx="22" cy="22" r="9" stroke="#28C7E8" stroke-width="2" fill="#080F1D"/>
+            <circle cx="22" cy="22" r="4.5" fill="#3478F6"/>
+            <path d="M22 8V12M22 32V36M8 22H12M32 22H36" stroke="#28C7E8" stroke-width="1.5" stroke-linecap="round"/>
+          </svg>
+        </div>
+        <div class="logo__text-box">
+          <span class="logo__title">CCTV SECURITY</span>
+          <span class="logo__sub">SOLUTIONS</span>
+        </div>
+      </a>
+
+      <!-- Desktop Navigation (Clean 4-Item Layout with Dropdown) -->
+      <nav class="nav" role="navigation" aria-label="Main Navigation">
+        <a href="index.html" class="nav__link active" aria-current="page">Home</a>
+        <div class="nav__dropdown">
+          <a href="solutions.html" class="nav__link nav__dropdown-toggle" aria-haspopup="true" aria-expanded="false">
+            Solutions
+            <svg class="nav__dropdown-icon" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg>
+          </a>
+          <div class="dropdown-menu" role="menu">
+            <a href="solutions.html" class="dropdown-item" role="menuitem">
+              <div class="dropdown-item__icon" aria-hidden="true">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"/><circle cx="12" cy="13" r="4"/></svg>
+              </div>
+              <div>
+                <span class="dropdown-item__title">CCTV Solutions</span>
+                <span class="dropdown-item__desc">IP, HD, Dome, Bullet &amp; PTZ cameras</span>
+              </div>
+            </a>
+            <a href="services.html" class="dropdown-item" role="menuitem">
+              <div class="dropdown-item__icon" aria-hidden="true">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg>
+              </div>
+              <div>
+                <span class="dropdown-item__title">Installation Services</span>
+                <span class="dropdown-item__desc">Residential, commercial, NVR &amp; AMC</span>
+              </div>
+            </a>
+            <a href="projects.html" class="dropdown-item" role="menuitem">
+              <div class="dropdown-item__icon" aria-hidden="true">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg>
+              </div>
+              <div>
+                <span class="dropdown-item__title">Projects Showcase</span>
+                <span class="dropdown-item__desc">Illustrative demo installation gallery</span>
+              </div>
+            </a>
+          </div>
+        </div>
+        <a href="about.html" class="nav__link">About</a>
+        <a href="contact.html" class="nav__link">Contact</a>
+      </nav>
+
+      <!-- Header Actions -->
+      <div class="header__actions">
+        <a href="contact.html" class="btn btn--primary btn--sm">Request Site Survey</a>
+        
+        <!-- Mobile Hamburger Toggle -->
+        <button class="hamburger" aria-label="Toggle navigation menu" aria-expanded="false">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Drawer & Overlay -->
+  <div class="mobile-nav__overlay" aria-hidden="true"></div>
+  <aside class="mobile-nav" aria-label="Mobile Navigation Drawer">
+    <div class="mobile-nav__links">
+      <a href="index.html" class="mobile-nav__link active">Home <span>→</span></a>
+      <div class="mobile-nav__dropdown">
+        <button class="mobile-nav__dropdown-btn" aria-expanded="false">
+          <span>Solutions &amp; Services</span>
+          <svg class="mobile-nav__dropdown-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"/></svg>
+        </button>
+        <div class="mobile-nav__sublinks">
+          <a href="solutions.html" class="mobile-nav__sublink">● CCTV Solutions</a>
+          <a href="services.html" class="mobile-nav__sublink">● Installation Services</a>
+          <a href="projects.html" class="mobile-nav__sublink">● Projects Showcase</a>
+        </div>
+      </div>
+      <a href="about.html" class="mobile-nav__link">About <span>→</span></a>
+      <a href="contact.html" class="mobile-nav__link">Contact / Survey <span>→</span></a>
+    </div>
+    <div class="mobile-nav__bottom">
+      <div class="demo-disclaimer-pill">
+        <span>●</span> Demonstration Website Portfolio
+      </div>
+      <a href="contact.html" class="btn btn--primary btn--full">Book Demo Site Survey</a>
+    </div>
+  </aside>
+
+  <!-- Main Content -->
+  <main id="main-content">
+    
+    <!-- Hero Section -->
+    <section class="hero" aria-labelledby="hero-heading">
+      <div class="hero__bg-grid" aria-hidden="true"></div>
+      <div class="hero__glow" aria-hidden="true"></div>
+      
+      <div class="container hero__inner">
+        <div class="hero__content">
+          <div class="tech-badge">
+            <span class="tech-badge__dot"></span>
+            CCTV INSTALLATION • SURVEILLANCE • SECURITY SYSTEMS
+          </div>
+          <h1 id="hero-heading" class="hero__headline">
+            SMARTER SURVEILLANCE.
+            <span>BETTER VISIBILITY.</span>
+          </h1>
+          <p class="hero__description">
+            Explore modern CCTV and security camera solutions for homes, offices, retail spaces and commercial properties. Discover camera systems, professional installation options and ongoing maintenance services.
+          </p>
+          <div class="hero__cta-group">
+            <a href="solutions.html" class="btn btn--cyan">Explore CCTV Solutions</a>
+            <a href="contact.html" class="btn btn--outline">Request a Site Survey</a>
+          </div>
+
+          <div class="hero__telemetry">
+            <div class="telemetry-item">
+              <span class="telemetry-item__val">HD &amp; 4K</span>
+              <span class="telemetry-item__label">High-Resolution Video</span>
+            </div>
+            <div class="telemetry-item">
+              <span class="telemetry-item__val">IP &amp; NVR</span>
+              <span class="telemetry-item__label">Network Architecture</span>
+            </div>
+            <div class="telemetry-item">
+              <span class="telemetry-item__val">Customized</span>
+              <span class="telemetry-item__label">Property Planning</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero__media">
+          <div class="hero__media-card">
+            <!-- HUD Reticles -->
+            <div class="hud-corner hud-corner--tl"></div>
+            <div class="hud-corner hud-corner--tr"></div>
+            <div class="hud-corner hud-corner--bl"></div>
+            <div class="hud-corner hud-corner--br"></div>
+            
+            <img src="images/cctv-hero-security-camera.jpg" 
+                 alt="Modern professional CCTV camera installed on a contemporary commercial building" 
+                 width="1280" height="720"
+                 data-intended-file="cctv-hero-security-camera.jpg">
+            
+            <div class="hud-tag">
+              <span class="hud-tag__rec"></span>
+              SURVEILLANCE HUD • ARCHITECTURAL DEPLOYMENT
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Service Highlights (4 Premium Highlights) -->
+    <section class="section section--alt" aria-labelledby="highlights-heading">
+      <div class="container">
+        <div class="section-header">
+          <div class="tech-badge">CORE CAPABILITIES</div>
+          <h2 id="highlights-heading" class="section-title">ENGINEERED FOR COMPREHENSIVE COVERAGE</h2>
+          <p class="section-desc">Reliable surveillance solutions planned around specific property layouts, operational hours, and lighting environments.</p>
+        </div>
+
+        <div class="highlights-grid">
+          <!-- Highlight 1 -->
+          <article class="highlight-card">
+            <div class="highlight-card__icon" aria-hidden="true">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/>
+                <polyline points="9 22 9 12 15 12 15 22"/>
+              </svg>
+            </div>
+            <h3 class="highlight-card__title">Residential CCTV</h3>
+            <p class="highlight-card__desc">Perimeter surveillance, entrance gates, driveway coverage, and discreet indoor planning for villas and residences.</p>
+            <a href="services.html#residential" class="highlight-card__link">Learn More <span>→</span></a>
+          </article>
+
+          <!-- Highlight 2 -->
+          <article class="highlight-card">
+            <div class="highlight-card__icon" aria-hidden="true">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <rect x="2" y="3" width="20" height="14" rx="2" ry="2"/>
+                <line x1="8" y1="21" x2="16" y2="21"/>
+                <line x1="12" y1="17" x2="12" y2="21"/>
+              </svg>
+            </div>
+            <h3 class="highlight-card__title">Commercial Surveillance</h3>
+            <p class="highlight-card__desc">Multi-zone camera networks, reception monitoring, cash counter security, and loading dock coverage for business sites.</p>
+            <a href="services.html#commercial" class="highlight-card__link">Learn More <span>→</span></a>
+          </article>
+
+          <!-- Highlight 3 -->
+          <article class="highlight-card">
+            <div class="highlight-card__icon" aria-hidden="true">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <circle cx="12" cy="12" r="10"/>
+                <line x1="2" y1="12" x2="22" y2="12"/>
+                <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>
+              </svg>
+            </div>
+            <h3 class="highlight-card__title">IP Camera Systems</h3>
+            <p class="highlight-card__desc">Digital video transmission over Cat6 structured cabling, Power-over-Ethernet (PoE), and scalable NVR recorder integrations.</p>
+            <a href="solutions.html#ip-cameras" class="highlight-card__link">Learn More <span>→</span></a>
+          </article>
+
+          <!-- Highlight 4 -->
+          <article class="highlight-card">
+            <div class="highlight-card__icon" aria-hidden="true">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/>
+              </svg>
+            </div>
+            <h3 class="highlight-card__title">CCTV Maintenance</h3>
+            <p class="highlight-card__desc">Periodic lens cleaning, connector verification, storage health assessment, and troubleshooting to keep hardware operational.</p>
+            <a href="services.html#maintenance" class="highlight-card__link">Learn More <span>→</span></a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Main Solutions Overview (8 Cards) -->
+    <section class="section section--dark" aria-labelledby="solutions-heading">
+      <div class="container">
+        <div class="section-header">
+          <div class="tech-badge">HARDWARE &amp; ARCHITECTURE</div>
+          <h2 id="solutions-heading" class="section-title">SECURITY CAMERA SOLUTIONS</h2>
+          <p class="section-desc">From compact indoor dome sensors to long-range infrared bullet cameras and multi-terabyte network video recording units.</p>
+        </div>
+
+        <div class="solutions-grid">
+          <!-- Solution 1 -->
+          <article class="solution-card">
+            <div class="solution-card__media">
+              <img src="images/cctv-hd-camera.jpg" alt="HD CCTV Camera Systems" loading="lazy" width="600" height="338">
+            </div>
+            <div class="solution-card__body">
+              <span class="solution-card__badge">Coaxial Infrastructure</span>
+              <h3 class="solution-card__title">HD CCTV Camera Systems</h3>
+              <p class="solution-card__desc">Reliable analog high-definition video over RG59 or coaxial lines with centralized DVR recording units.</p>
+              <div class="solution-card__footer">
+                <a href="solutions.html#hd-cctv" class="highlight-card__link">Explore Solution <span>→</span></a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Solution 2 -->
+          <article class="solution-card">
+            <div class="solution-card__media">
+              <img src="images/cctv-ip-camera.jpg" alt="IP Security Cameras" loading="lazy" width="600" height="338">
+            </div>
+            <div class="solution-card__body">
+              <span class="solution-card__badge">Digital Network</span>
+              <h3 class="solution-card__title">IP Security Cameras</h3>
+              <p class="solution-card__desc">High-resolution digital streaming over standard Ethernet cabling with single-wire PoE power distribution.</p>
+              <div class="solution-card__footer">
+                <a href="solutions.html#ip-cameras" class="highlight-card__link">Explore Solution <span>→</span></a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Solution 3 -->
+          <article class="solution-card">
+            <div class="solution-card__media">
+              <img src="images/cctv-wireless-camera.jpg" alt="Wireless CCTV Systems" loading="lazy" width="600" height="338">
+            </div>
+            <div class="solution-card__body">
+              <span class="solution-card__badge">Wi-Fi Enabled</span>
+              <h3 class="solution-card__title">Wireless CCTV Systems</h3>
+              <p class="solution-card__desc">Flexible placement for locations where network cabling is challenging, requiring dedicated local power sources.</p>
+              <div class="solution-card__footer">
+                <a href="solutions.html#wireless" class="highlight-card__link">Explore Solution <span>→</span></a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Solution 4 -->
+          <article class="solution-card">
+            <div class="solution-card__media">
+              <img src="images/cctv-dome-camera.jpg" alt="Dome Cameras" loading="lazy" width="600" height="338">
+            </div>
+            <div class="solution-card__body">
+              <span class="solution-card__badge">Indoor &amp; Ceilings</span>
+              <h3 class="solution-card__title">Dome Cameras</h3>
+              <p class="solution-card__desc">Discreet ceiling-mounted housings suited for retail interiors, office lobbies, and apartment corridors.</p>
+              <div class="solution-card__footer">
+                <a href="solutions.html#dome" class="highlight-card__link">Explore Solution <span>→</span></a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Solution 5 -->
+          <article class="solution-card">
+            <div class="solution-card__media">
+              <img src="images/cctv-bullet-camera.jpg" alt="Bullet Cameras" loading="lazy" width="600" height="338">
+            </div>
+            <div class="solution-card__body">
+              <span class="solution-card__badge">Outdoor &amp; Perimeter</span>
+              <h3 class="solution-card__title">Bullet Cameras</h3>
+              <p class="solution-card__desc">Directional outdoor cameras designed for long-distance viewing across driveways, parking zones, and fences.</p>
+              <div class="solution-card__footer">
+                <a href="solutions.html#bullet" class="highlight-card__link">Explore Solution <span>→</span></a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Solution 6 -->
+          <article class="solution-card">
+            <div class="solution-card__media">
+              <img src="images/cctv-ptz-camera.jpg" alt="PTZ Cameras" loading="lazy" width="600" height="338">
+            </div>
+            <div class="solution-card__body">
+              <span class="solution-card__badge">Pan • Tilt • Zoom</span>
+              <h3 class="solution-card__title">PTZ Cameras</h3>
+              <p class="solution-card__desc">Motorized optics providing 360-degree rotation and high magnification for expansive yards and large commercial sites.</p>
+              <div class="solution-card__footer">
+                <a href="solutions.html#ptz" class="highlight-card__link">Explore Solution <span>→</span></a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Solution 7 -->
+          <article class="solution-card">
+            <div class="solution-card__media">
+              <img src="images/cctv-night-vision-camera.jpg" alt="Night Vision Cameras" loading="lazy" width="600" height="338">
+            </div>
+            <div class="solution-card__body">
+              <span class="solution-card__badge">Infrared &amp; Low-Light</span>
+              <h3 class="solution-card__title">Night Vision Cameras</h3>
+              <p class="solution-card__desc">Smart IR illumination and sensitive optical sensors maintaining visibility in complete darkness.</p>
+              <div class="solution-card__footer">
+                <a href="solutions.html#night-vision" class="highlight-card__link">Explore Solution <span>→</span></a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Solution 8 -->
+          <article class="solution-card">
+            <div class="solution-card__media">
+              <img src="images/cctv-nvr-recorder.jpg" alt="DVR / NVR Recording Systems" loading="lazy" width="600" height="338">
+            </div>
+            <div class="solution-card__body">
+              <span class="solution-card__badge">Storage &amp; Management</span>
+              <h3 class="solution-card__title">DVR / NVR Recording Systems</h3>
+              <p class="solution-card__desc">Dedicated local surveillance recorders with high-capacity hard drive retention, motion triggers, and playback.</p>
+              <div class="solution-card__footer">
+                <a href="solutions.html#recording" class="highlight-card__link">Explore Solution <span>→</span></a>
+              </div>
+            </div>
+          </article>
+        </div>
+
+        <div style="text-align: center; margin-top: 2.5rem;">
+          <p class="text-muted" style="font-size: 0.82rem;">Note: Hardware options are selected based on site survey findings. Specific product availability depends on system scope.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Who We Serve (4 Large Image Panels) -->
+    <section class="section section--alt" aria-labelledby="sectors-heading">
+      <div class="container">
+        <div class="section-header">
+          <div class="tech-badge">APPLICATION DOMAINS</div>
+          <h2 id="sectors-heading" class="section-title">WHO WE SERVE</h2>
+          <p class="section-desc">Tailored camera layouts and storage solutions planned to meet distinct environmental and operational demands.</p>
+        </div>
+
+        <div class="sectors-grid">
+          <!-- Sector 1: Homes & Villas -->
+          <article class="sector-panel">
+            <div class="sector-panel__media">
+              <img src="images/cctv-residential-installation.jpg" alt="Residential surveillance installation" loading="lazy">
+            </div>
+            <div class="sector-panel__content">
+              <h3 class="sector-panel__title">Homes &amp; Villas</h3>
+              <p class="sector-panel__desc">Residential surveillance requirements for houses, duplexes, and apartment buildings requiring boundary protection.</p>
+              <ul class="sector-panel__points">
+                <li>
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                  Perimeter and main gate monitoring
+                </li>
+                <li>
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                  Driveway and porch visibility
+                </li>
+                <li>
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                  Privacy masking for neighbours
+                </li>
+              </ul>
+              <a href="contact.html" class="btn btn--outline btn--sm">Enquire for Homes</a>
+            </div>
+          </article>
+
+          <!-- Sector 2: Shops & Retail -->
+          <article class="sector-panel">
+            <div class="sector-panel__media">
+              <img src="images/cctv-project-retail.jpg" alt="Retail store surveillance setup" loading="lazy">
+            </div>
+            <div class="sector-panel__content">
+              <h3 class="sector-panel__title">Shops &amp; Retail</h3>
+              <p class="sector-panel__desc">Camera system planning for retail boutiques, showrooms, grocery stores, and commercial customer counters.</p>
+              <ul class="sector-panel__points">
+                <li>
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                  Cash transaction area surveillance
+                </li>
+                <li>
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                  Aisle and inventory visibility
+                </li>
+                <li>
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                  Discreet dome ceiling cameras
+                </li>
+              </ul>
+              <a href="contact.html" class="btn btn--outline btn--sm">Enquire for Retail</a>
+            </div>
+          </article>
+
+          <!-- Sector 3: Offices & Commercial Spaces -->
+          <article class="sector-panel">
+            <div class="sector-panel__media">
+              <img src="images/cctv-commercial-installation.jpg" alt="Commercial office security cameras" loading="lazy">
+            </div>
+            <div class="sector-panel__content">
+              <h3 class="sector-panel__title">Offices &amp; Commercial</h3>
+              <p class="sector-panel__desc">Surveillance solutions for office floors, corporate suites, server rooms, and shared business corridors.</p>
+              <ul class="sector-panel__points">
+                <li>
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                  Access control point monitoring
+                </li>
+                <li>
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                  Elevator lobby and stairway coverage
+                </li>
+                <li>
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                  Server room access tracking
+                </li>
+              </ul>
+              <a href="contact.html" class="btn btn--outline btn--sm">Enquire for Offices</a>
+            </div>
+          </article>
+
+          <!-- Sector 4: Warehouses & Industrial Spaces -->
+          <article class="sector-panel">
+            <div class="sector-panel__media">
+              <img src="images/cctv-project-warehouse.jpg" alt="Warehouse industrial camera system" loading="lazy">
+            </div>
+            <div class="sector-panel__content">
+              <h3 class="sector-panel__title">Warehouses &amp; Logistics</h3>
+              <p class="sector-panel__desc">Camera system enquiries for large operational yards, loading bays, factory floors, and storage centers.</p>
+              <ul class="sector-panel__points">
+                <li>
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                  Long-range outdoor bullet sensors
+                </li>
+                <li>
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                  Loading dock vehicle verification
+                </li>
+                <li>
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                  High-bay conduit cable protection
+                </li>
+              </ul>
+              <a href="contact.html" class="btn btn--outline btn--sm">Enquire for Warehouses</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- How a CCTV System Works (6 Steps Visual Diagram) -->
+    <section class="section section--dark" aria-labelledby="workflow-heading">
+      <div class="container">
+        <div class="section-header">
+          <div class="tech-badge">SYSTEM ARCHITECTURE</div>
+          <h2 id="workflow-heading" class="section-title">HOW A CCTV SYSTEM WORKS</h2>
+          <p class="section-desc">An illustrative overview of the technical pipeline from optical capture to video storage and authorized monitoring.</p>
+        </div>
+
+        <div class="system-diagram">
+          <div style="display: grid; grid-template-columns: 1fr 1.2fr; gap: 2.5rem; align-items: center; margin-bottom: 3rem; padding-bottom: 2.5rem; border-bottom: 1px solid var(--border-color);">
+            <div>
+              <div class="tech-badge">CENTRALIZED MONITORING HUB</div>
+              <h3 style="font-size: 1.65rem; margin-bottom: 0.85rem; color: var(--color-white);">SYNCHRONIZED SURVEILLANCE INFRASTRUCTURE</h3>
+              <p style="font-size: 0.95rem; color: var(--color-grey); line-height: 1.6; margin-bottom: 1.25rem;">
+                From edge camera sensors to local NVR storage drives and multi-display control consoles, every hardware component connects into a coherent, secure security network designed for continuous recording and instant playback.
+              </p>
+              <div class="demo-disclaimer-pill">
+                <span>●</span> Multi-Screen Operations Center Architecture
+              </div>
+            </div>
+            <div style="border-radius: var(--radius-md); overflow: hidden; border: 1px solid var(--border-color); box-shadow: var(--shadow-subtle);">
+              <img src="images/cctv-camera-monitoring-system.jpg" alt="Multi-Screen Security Camera Monitoring Operations Center" loading="lazy" style="width: 100%; aspect-ratio: 16/9; object-fit: cover;">
+            </div>
+          </div>
+
+          <div class="diagram-steps">
+            <!-- Step 1 -->
+            <div class="diagram-step">
+              <span class="diagram-step__num">01</span>
+              <div class="diagram-step__icon" aria-hidden="true">
+                <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"/>
+                  <circle cx="12" cy="13" r="4"/>
+                </svg>
+              </div>
+              <h3 class="diagram-step__title">Optical Capture</h3>
+              <p class="diagram-step__desc">The camera sensor captures ambient light, converting visual scenes into high-definition digital or analog signals.</p>
+            </div>
+
+            <!-- Step 2 -->
+            <div class="diagram-step">
+              <span class="diagram-step__num">02</span>
+              <div class="diagram-step__icon" aria-hidden="true">
+                <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M5 12.55a11 11 0 0 1 14.08 0"/>
+                  <path d="M1.42 9a16 16 0 0 1 21.16 0"/>
+                  <path d="M8.53 16.11a6 6 0 0 1 6.95 0"/>
+                  <line x1="12" y1="20" x2="12.01" y2="20"/>
+                </svg>
+              </div>
+              <h3 class="diagram-step__title">Signal Transmission</h3>
+              <p class="diagram-step__desc">Video travels via shielded Cat6 network cabling, coaxial wiring, or encrypted local Wi-Fi frequencies.</p>
+            </div>
+
+            <!-- Step 3 -->
+            <div class="diagram-step">
+              <span class="diagram-step__num">03</span>
+              <div class="diagram-step__icon" aria-hidden="true">
+                <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <rect x="2" y="2" width="20" height="8" rx="2" ry="2"/>
+                  <rect x="2" y="14" width="20" height="8" rx="2" ry="2"/>
+                  <line x1="6" y1="6" x2="6.01" y2="6"/>
+                  <line x1="6" y1="18" x2="6.01" y2="18"/>
+                </svg>
+              </div>
+              <h3 class="diagram-step__title">Video Recording</h3>
+              <p class="diagram-step__desc">A dedicated DVR or NVR processor synchronizes video feeds, applies compression (H.265), and tags motion events.</p>
+            </div>
+
+            <!-- Step 4 -->
+            <div class="diagram-step">
+              <span class="diagram-step__num">04</span>
+              <div class="diagram-step__icon" aria-hidden="true">
+                <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <ellipse cx="12" cy="5" rx="9" ry="3"/>
+                  <path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"/>
+                  <path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"/>
+                </svg>
+              </div>
+              <h3 class="diagram-step__title">Data Storage</h3>
+              <p class="diagram-step__desc">Surveillance-grade hard drives store video files securely for days or weeks based on capacity and recording profiles.</p>
+            </div>
+
+            <!-- Step 5 -->
+            <div class="diagram-step">
+              <span class="diagram-step__num">05</span>
+              <div class="diagram-step__icon" aria-hidden="true">
+                <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <rect x="5" y="2" width="14" height="20" rx="2" ry="2"/>
+                  <line x1="12" y1="18" x2="12.01" y2="18"/>
+                </svg>
+              </div>
+              <h3 class="diagram-step__title">Authorized Access</h3>
+              <p class="diagram-step__desc">Authorized users view live video feeds or inspect archived event recordings via HDMI monitor or secured mobile applications.</p>
+            </div>
+
+            <!-- Step 6 -->
+            <div class="diagram-step">
+              <span class="diagram-step__num">06</span>
+              <div class="diagram-step__icon" aria-hidden="true">
+                <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+                </svg>
+              </div>
+              <h3 class="diagram-step__title">System Maintenance</h3>
+              <p class="diagram-step__desc">Regular cleaning, connector integrity inspections, and firmware updates support continuous long-term operation.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Why Plan Your CCTV Installation? (4 Cards) -->
+    <section class="section section--alt" aria-labelledby="why-plan-heading">
+      <div class="container">
+        <div class="section-header">
+          <div class="tech-badge">PLANNING &amp; BEST PRACTICES</div>
+          <h2 id="why-plan-heading" class="section-title">WHY PLAN YOUR CCTV INSTALLATION?</h2>
+          <p class="section-desc">Thoughtful design avoids blind spots, protects neighbor privacy, and optimizes equipment investment.</p>
+        </div>
+
+        <div class="features-grid">
+          <!-- Feature 1 -->
+          <div class="feature-box">
+            <span class="feature-box__num">01</span>
+            <h3 class="feature-box__title">Property-Specific Planning</h3>
+            <p class="feature-box__desc">Every property features distinct perimeter lines, lighting conditions, and structural obstacles that demand individual camera positioning.</p>
+          </div>
+
+          <!-- Feature 2 -->
+          <div class="feature-box">
+            <span class="feature-box__num">02</span>
+            <h3 class="feature-box__title">Suitable Camera Selection</h3>
+            <p class="feature-box__desc">Matching camera focal lengths, sensor resolutions, and ingress protection ensures hardware matches the exact outdoor or indoor setting.</p>
+          </div>
+
+          <!-- Feature 3 -->
+          <div class="feature-box">
+            <span class="feature-box__num">03</span>
+            <h3 class="feature-box__title">Thoughtful Camera Placement</h3>
+            <p class="feature-box__desc">Carefully aimed viewing angles capture critical access points while respecting boundary lines and neighbor privacy considerations.</p>
+          </div>
+
+          <!-- Feature 4 -->
+          <div class="feature-box">
+            <span class="feature-box__num">04</span>
+            <h3 class="feature-box__title">Installation &amp; Maintenance Support</h3>
+            <p class="feature-box__desc">Tidy conduit cabling, secure power supplies, and periodic routine checkups prevent unexpected signal loss or recorder downtime.</p>
+          </div>
+        </div>
+
+        <div style="text-align:center; margin-top:2.5rem;">
+          <p class="text-muted" style="font-size:0.85rem;">Notice: A CCTV system provides visual monitoring and recorded visibility. It does not provide absolute crime prevention or guarantee security outcomes.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Featured Projects (3 Illustrative Cards) -->
+    <section class="section section--dark" aria-labelledby="featured-projects-heading">
+      <div class="container">
+        <div class="section-header">
+          <div class="tech-badge">PORTFOLIO DEMONSTRATION</div>
+          <h2 id="featured-projects-heading" class="section-title">FEATURED PROJECT CONCEPTS</h2>
+          <p class="section-desc">Sample installations illustrating camera layout planning, structured wiring, and recorder setups.</p>
+        </div>
+
+        <div class="projects-featured-grid">
+          <!-- Project 1 -->
+          <article class="project-card">
+            <div class="project-card__media">
+              <span class="project-card__badge-overlay">ILLUSTRATIVE DEMO PROJECT</span>
+              <img src="images/cctv-project-residential.jpg" alt="Modern Residential CCTV Setup" loading="lazy">
+            </div>
+            <div class="project-card__body">
+              <span class="project-card__category">Residential CCTV</span>
+              <h3 class="project-card__title">Modern Residential CCTV Setup</h3>
+              <p class="project-card__desc">Perimeter bullet cameras paired with entrance dome units, providing comprehensive courtyard coverage for an independent villa.</p>
+              <a href="projects.html" class="btn btn--outline btn--sm">View in Gallery</a>
+            </div>
+          </article>
+
+          <!-- Project 2 -->
+          <article class="project-card">
+            <div class="project-card__media">
+              <span class="project-card__badge-overlay">ILLUSTRATIVE DEMO PROJECT</span>
+              <img src="images/cctv-project-office.jpg" alt="Commercial Office Camera System" loading="lazy">
+            </div>
+            <div class="project-card__body">
+              <span class="project-card__category">Commercial CCTV</span>
+              <h3 class="project-card__title">Commercial Office Camera System</h3>
+              <p class="project-card__desc">Centralized ceiling dome network monitoring reception and server rooms while strictly preserving workspace desk privacy.</p>
+              <a href="projects.html" class="btn btn--outline btn--sm">View in Gallery</a>
+            </div>
+          </article>
+
+          <!-- Project 3 -->
+          <article class="project-card">
+            <div class="project-card__media">
+              <span class="project-card__badge-overlay">ILLUSTRATIVE DEMO PROJECT</span>
+              <img src="images/cctv-project-retail.jpg" alt="Retail Store Surveillance Concept" loading="lazy">
+            </div>
+            <div class="project-card__body">
+              <span class="project-card__category">Commercial CCTV</span>
+              <h3 class="project-card__title">Retail Store Surveillance Concept</h3>
+              <p class="project-card__desc">Wide dynamic range cameras placed over cash counters, retail display aisles, and backroom inventory storage spaces.</p>
+              <a href="projects.html" class="btn btn--outline btn--sm">View in Gallery</a>
+            </div>
+          </article>
+        </div>
+
+        <div style="text-align: center; margin-top: 3rem;">
+          <a href="projects.html" class="btn btn--primary">View All Demo Showcases</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Final Call to Action -->
+    <section class="section section--alt" aria-labelledby="final-cta-heading">
+      <div class="container">
+        <div class="cta-banner">
+          <div class="cta-banner__glow" aria-hidden="true"></div>
+          <h2 id="final-cta-heading" class="cta-banner__title">LET'S PLAN THE RIGHT CCTV SYSTEM FOR YOUR PROPERTY.</h2>
+          <p class="cta-banner__text">
+            Share your property type and surveillance requirements to explore suitable camera system options and schedule a demonstration site survey.
+          </p>
+          <div class="cta-banner__actions">
+            <a href="contact.html" class="btn btn--cyan">Request Site Survey</a>
+            <a href="solutions.html" class="btn btn--outline">Compare Solutions</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Shared Footer -->
+  <footer class="footer" role="contentinfo">
+    <div class="container">
+      <div class="footer__grid">
+        <!-- Col 1: Brand & Intro -->
+        <div>
+          <a href="index.html" class="logo" style="margin-bottom: 1.25rem;">
+            <div class="logo__symbol" aria-hidden="true">
+              <svg viewBox="0 0 44 44" width="36" height="36" fill="none">
+                <path d="M22 3L6 10V22C6 32 13 40 22 43C31 40 38 32 38 22V10L22 3Z" stroke="#3478F6" stroke-width="2.5" fill="#111B2A"/>
+                <circle cx="22" cy="22" r="9" stroke="#28C7E8" stroke-width="2" fill="#080F1D"/>
+                <circle cx="22" cy="22" r="4.5" fill="#3478F6"/>
+              </svg>
+            </div>
+            <div class="logo__text-box">
+              <span class="logo__title">CCTV SECURITY</span>
+              <span class="logo__sub">SOLUTIONS</span>
+            </div>
+          </a>
+          <p style="font-size: 0.9rem; color: var(--color-muted); line-height: 1.6; margin-bottom: 1.25rem;">
+            A modern demonstration website showcasing surveillance architecture, camera selection, installation workflows, and privacy-conscious security camera solutions.
+          </p>
+          <div class="demo-disclaimer-pill">
+            <span>●</span> TSCG Technologies Portfolio Demo
+          </div>
+        </div>
+
+        <!-- Col 2: Quick Links -->
+        <div>
+          <h3 class="footer__col-title">Quick Links</h3>
+          <ul class="footer__links">
+            <li><a href="index.html" class="footer__link">Home</a></li>
+            <li><a href="about.html" class="footer__link">About</a></li>
+            <li><a href="solutions.html" class="footer__link">CCTV Solutions</a></li>
+            <li><a href="services.html" class="footer__link">Installation Services</a></li>
+            <li><a href="projects.html" class="footer__link">Projects Gallery</a></li>
+            <li><a href="contact.html" class="footer__link">Contact / Site Survey</a></li>
+          </ul>
+        </div>
+
+        <!-- Col 3: Solutions -->
+        <div>
+          <h3 class="footer__col-title">Solutions</h3>
+          <ul class="footer__links">
+            <li><a href="solutions.html#hd-cctv" class="footer__link">HD CCTV Systems</a></li>
+            <li><a href="solutions.html#ip-cameras" class="footer__link">IP Security Cameras</a></li>
+            <li><a href="solutions.html#wireless" class="footer__link">Wireless CCTV</a></li>
+            <li><a href="solutions.html#dome" class="footer__link">Dome Cameras</a></li>
+            <li><a href="solutions.html#bullet" class="footer__link">Bullet Cameras</a></li>
+            <li><a href="solutions.html#recording" class="footer__link">DVR &amp; NVR Systems</a></li>
+          </ul>
+        </div>
+
+        <!-- Col 4: Demonstration Contact -->
+        <div>
+          <h3 class="footer__col-title">Demo Contact</h3>
+          <ul class="footer__contact-list">
+            <li class="footer__contact-item">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+              <span>Phone: 0000000000 <span class="text-amber">(Demo)</span></span>
+            </li>
+            <li class="footer__contact-item">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+              <span>Email: demo@example.com</span>
+            </li>
+            <li class="footer__contact-item">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+              <span>Plot No. 000, Demo Road, Sample Area, Hyderabad, Telangana – 000000</span>
+            </li>
+            <li class="footer__contact-item">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+              <span>Mon–Sat: 9:00 AM–6:00 PM<br>Sun: Closed</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Bottom Bar -->
+      <div class="footer__bottom">
+        <div>
+          &copy; 2026–2027 CCTV Security Solutions. All rights reserved. Portfolio Demonstration.
+        </div>
+        <div class="footer__legal-links">
+          <a href="#">Privacy Policy (Demo)</a>
+          <a href="#">Terms of Service (Demo)</a>
+          <a href="#">Privacy-Conscious Practices</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Mobile Sticky Bottom Action Bar -->
+  <div class="mobile-bottom-bar" aria-label="Mobile quick contact bar">
+    <div class="mobile-bottom-bar__info">
+      <span class="mobile-bottom-bar__label">DEMO HOTLINE</span>
+      <span class="mobile-bottom-bar__val">0000000000</span>
+    </div>
+    <a href="contact.html" class="btn btn--primary btn--sm">Request Survey</a>
+  </div>
+
+  <!-- Back to Top Button -->
+  <button class="back-to-top" aria-label="Back to top">
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+      <polyline points="18 15 12 9 6 15"/>
+    </svg>
+  </button>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
